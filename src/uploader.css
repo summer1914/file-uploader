@@ -13,11 +13,12 @@
 ------------------------------------------ */
 .file-gallery .file-upload-button {
 	display: inline;
-	min-width: 105px;
+	min-width: 120px;
 	padding: 7px 10px;
 	float: left;
 	text-align: center;
 	background: #00ABC7;
+	font-size: 12px;
 	color: #FFFFFF;
 	border-radius: 2px;
 	border: 1px solid #37B7CC;
@@ -32,7 +33,7 @@
 	font-style: italic;
 }
 
-.form input.file-input {
+input.file-input {
 	position: absolute;
 	right: 0px;
 	top: 0px;
@@ -61,10 +62,9 @@ ul.file-upload-list-selector.file-upload-list li div.file-thumbnail-wrapper img 
 	border: #fff 2px solid;
 }
 
-.file-gallery.file-uploader {
+.file-gallery{
 	position: relative;
 	min-height: 200px;
-	max-height: 490px;
 	overflow-y: hidden;
 	width: inherit;
 	border-radius: 6px;
@@ -226,7 +226,7 @@ ul.file-upload-list-selector.file-upload-list li div.file-thumbnail-wrapper img 
 	-webkit-transform: translateY(-50%);
 }
 
-.file-uploader .file-uploader-selector.file-uploader.file-gallery .uploader-attention {
+.file-uploader-selector.file-uploader.file-gallery .uploader-attention {
 	height: 50px;
 	width: 40%;
 	float: right;
@@ -234,19 +234,22 @@ ul.file-upload-list-selector.file-upload-list li div.file-thumbnail-wrapper img 
 	color: #993333;
 }
 
-.file-uploader .file-uploader-selector.file-uploader.file-gallery .file-upload-button {
+.file-uploader-selector.file-uploader.file-gallery .file-upload-button {
 	position: relative;
 	overflow: hidden;
 	direction: ltr;
 }
 
-.file-uploader .file-uploader-selector.file-uploader.file-gallery {
-	max-width: 735px;
+.file-upload-delete-selector.file-upload-delete .icon-trash{
+	background: url(img/trash.gif);
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: text-bottom;
 }
 
-form.evidence textarea {
-	width: 210px;
-	height: 50px;
+.file-uploader-selector.file-uploader.file-gallery {
+	max-width: 735px;
 }
 
 .file-container {
@@ -277,46 +280,4 @@ form.evidence textarea {
 
 .file-container .evidence-display-text span a, .file-container .evidence-display-text .btn {
 	color: #fff;
-}
-
-.display-modal {
-	position: relative;
-}
-
-.upload-box {
-	padding: 10px 0 20px 30px;
-}
-
-.evidence-display-text .btn.upload-btn {
-	margin-left: 20px;
-}
-
-.evidence-display-text span.badge {
-	margin-left: 5px;
-}
-
-.display .file-thumbnail-wrapper img {
-	max-width: 98%;
-}
-
-.edit-modal, .upload-modal, .list-modal {
-	width: 1300px;
-	margin-left: -650px;
-}
-
-.modal.fade.in.edit-modal, .modal.fade.in.upload-modal, .modal.fade.in.list-modal {
-	top: 300px;
-}
-
-.edit-modal .modal-body, .upload-modal .modal-body, .list-modal .modal-body {
-	max-height: 500px;
-}
-
-.modal .modal-header .text-hint{
-	position: relative;
-	top: 17px;
-	left: 300px;
-	font-size: 13px;
-	color: #990000;
-	font-weight: bold;
 }

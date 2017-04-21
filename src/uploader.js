@@ -4,7 +4,7 @@
 
 /***
  usage:
-  $(selector).chibiEvidenceFileUploader({
+  $(selector).fileUploader({
 		'onUploadSuccess': function (){},   //单个文件上传成功回调函数
 		'onUploadFail': function (){},   //单个函数上传失败回调
 		'files': [{"name": "test.png", "url": "url", "size":"size"}]   //初始化文件
@@ -39,7 +39,7 @@
 
 		$.map(params, function(key, val) {
 			formData.append(key, val);
-		}
+		});
 
 		$.ajax({
 			type: 'POST',
@@ -159,7 +159,7 @@
 			'onUploadSuccess': function (file) {
 				var imgHtml = '<li class="img-item">'
 					+ '<div class="file-thumbnail-wrapper">'
-					+ '<img class="file-thumbnail-selector"  src="//file.baixing.net/' + file.url + '" />'
+					+ '<img class="file-thumbnail-selector"  src="' + file.url + '" />'
 					+ '</div>'
 					+ '<div class="file-file-info">'
 					+ '<div class="file-file-name">'

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>file uploader test</title>
+	<link rel="stylesheet" type="text/css" href="src/uploader.css">
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="src/uploader.js"></script>
+	<style type="text/css">
+		.file-uploader{
+			margin: 50px auto;
+		}
+	</style>
+</head>
+<body>
+<div class="file-uploader"></div>
+<div class="file-uploader-with-init-file"></div>
+
+<script type="text/javascript">
+	$('.file-uploader').fileUploader();
+
+	$('.file-uploader-with-init-file').fileUploader({
+		'files': [{
+			"name": "test.png",
+			"url": "https://a-ssl.duitang.com/uploads/item/201312/11/20131211013437_jP3VR.thumb.700_0.jpeg",
+			"size":10000
+		}]
+	});
+</script>
+</body>
+</html>
