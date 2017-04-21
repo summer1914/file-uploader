@@ -39,5 +39,4 @@ $('.file-uploader-with-init-file').fileUploader({
 ## License
 MIT
 
->使用效果见test.html
->更多信息：https://www.luojia.ren/index.php/archives/3909
+>使用效果见test.html。更多信息：https://www.luojia.ren/index.php/archives/3909
