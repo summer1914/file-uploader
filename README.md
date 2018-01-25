@@ -36,6 +36,13 @@ $('.file-uploader-with-init-file').fileUploader({
     }]
 });
 ```
+
+## demo
+
+[picture1](http://blog.luojia.ren/upload/WechatIMG1.jpeg)
+
+[picture1](http://blog.luojia.ren/upload/WechatIMG2.jpeg)
+
 ## License
 MIT
 
