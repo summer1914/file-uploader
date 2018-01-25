@@ -39,11 +39,12 @@ $('.file-uploader-with-init-file').fileUploader({
 
 ## demo
 
-[picture1](http://blog.luojia.ren/upload/WechatIMG1.jpeg)
+![picture1](http://blog.luojia.ren/upload/WechatIMG1.jpeg)
 
-[picture1](http://blog.luojia.ren/upload/WechatIMG2.jpeg)
+![picture1](http://blog.luojia.ren/upload/WechatIMG2.jpeg)
 
 ## License
+
 MIT
 
->使用效果见test.html。更多信息：https://www.luojia.ren/index.php/archives/3909
+>使用效果见test.html。更多信息：http://blog.luojia.ren/2017/04/13/%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99-jquery-%E6%8F%92%E4%BB%B6/
